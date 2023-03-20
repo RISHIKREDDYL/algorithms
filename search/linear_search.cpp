@@ -2,7 +2,7 @@
 
 using namespace std;
 
-linearsearch(int arr[], int key, int n){
+int linearsearch(int arr[], int key, int n){
     for(int i = 0; i <= n; i++)
     {
         if (arr[i] == key)
