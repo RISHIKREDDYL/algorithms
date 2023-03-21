@@ -11,7 +11,7 @@ int linearsearch(int arr[], int key, int n){
             return 0;
         }
     }
-    return -1;
+    cout << "Element Not Found in Array";
 }
 
 int main(){
